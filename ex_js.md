@@ -12,3 +12,5 @@ Je voudrais que ca soit dynamique et que ca vienne de l'appel javascript `naviga
 C'est a dire qu'on ajoute ou retranche `0.1` a la latitude/longitude pour creer une valeur a donner en premier argument a la fonction `openstreetmapGetPOIs`
 
 Idealement, le candidat ecrira du code lisible et asynchrone.
+
+Le resultat pourra etre un jsfiddle, un projet github ou autre.
