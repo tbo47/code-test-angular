@@ -1,16 +1,15 @@
 https://jsfiddle.net/tbo47/qsuy92ht/
 
-Sur le lien ci dessus, il y a une partie html, une partie css, une partie javascript.
-Le rectangle en bas a droite est le rendu finale. 
-Il faut appuyer sur le boutton play en haut a gauche pour rafraichir la partie en bas a droite.
+On the link above, there is an html part, a css part, a javascript part.
+The rectangle at the bottom right is the final rendering.
+You have to press the play button at the top left to refresh the part at the bottom right.
 
+The `openstreetmapGetPOIs` function takes 2 arguments.
+The first is a gps coordinate rectangle, the second is the type of point of interest that we want to list.
+As you can see, the first argument (on line 6) is hardcoded.
+I would like it to be dynamic and come from the javascript call `navigator.geolocation.getCurrentPosition`.
+That is to say, we add or subtract `0.1` to the latitude/longitude to create a value to give as the first argument to the `openstreetmapGetPOIs` function
 
-La fonction `openstreetmapGetPOIs` prend 2 arguments. 
-Le premier est un carre de coordonnee gps, le deuxieme est le type de point d'interet qu on veut lister.
-Comme on peut le voir, le premier argument (en ligne 6) est coder en dur. 
-Je voudrais que ca soit dynamique et que ca vienne de l'appel javascript `navigator.geolocation.getCurrentPosition`. 
-C'est a dire qu'on ajoute ou retranche `0.1` a la latitude/longitude pour creer une valeur a donner en premier argument a la fonction `openstreetmapGetPOIs`
+Ideally, the candidate will write readable and asynchronous code.
 
-Idealement, le candidat ecrira du code lisible et asynchrone.
-
-Le resultat pourra etre un jsfiddle, un projet github ou autre.
+The result could be a jsfiddle, a github project or email.
