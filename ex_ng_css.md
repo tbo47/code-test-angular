@@ -71,18 +71,7 @@ Note: To be able to use `<app-header></app-header>` in `app.component.html` you 
 
 ```
 
-The header must be visible when we scroll down the page. It must have a logo on the left and a logo on the right. (using css flexbox)
-
-The content is centered in the middle of the page. (using css flexbox)
-
-The menu must have round corners and is fixed in the bottom of the page.
-
-Tip 1: To place `element 1` on the left and `element 2` on the right, we can add `flex:none` to element 1 and 2 and add a empty element in the middle with `flex: 1`.
-The parent element needs to have `display: flex`
-
-Tip 2: simmilar to tip 1, if the parent element has `flex-direction: column`, we can have stick something at the top and something at the bottom.
-
-Tip 3: to center an element horizontally and vertically, we can use `display: flex; justify-content: center; align-items: center;` on the parent. The centered child need to be `flex` too.
+The header must be visible when we scroll down the page.
 
 ## task #2
 
