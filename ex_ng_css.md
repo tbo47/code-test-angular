@@ -75,7 +75,7 @@ The header must be visible when we scroll down the page.
 
 ## task #2
 
-Let's create a array of football players in `my-service.ts`. We will use the new `signal` api.
+Let's create a array of football players.
 
 ```javascript
 footballers = signal([
